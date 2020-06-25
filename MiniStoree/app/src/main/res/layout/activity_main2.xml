@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvup"
+    android:text="Sign Up"
+    android:textSize="60dp"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+    android:textColor="@color/colorPrimary"
+    android:textAlignment="center"
+    />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/udername"
+    android:layout_below="@+id/tvup"
+    android:hint="Name"
+    android:textSize="35dp"
+    android:layout_centerHorizontal="true"
+    android:textAlignment="center"
+    android:background="@drawable/round"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail id *"
+        android:id="@+id/emailid"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/udername"
+        android:background="@drawable/round"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailid"
+        android:hint="Password *"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:background="@drawable/round"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:hint="Conform Password *"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:id="@+id/cnfpass"
+        android:inputType="textPassword"
+        android:background="@drawable/round"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cnfpass"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mobile"
+        android:background="@drawable/round"
+        android:hint="Mobile"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsignup"
+        android:layout_below="@+id/mobile"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress2"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

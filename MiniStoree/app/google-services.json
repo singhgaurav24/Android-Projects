@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "47726529346",
+    "firebase_url": "https://ministoree-149a3.firebaseio.com",
+    "project_id": "ministoree-149a3",
+    "storage_bucket": "ministoree-149a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47726529346:android:b287c5b51e3a5aa6b796db",
+        "android_client_info": {
+          "package_name": "com.example.ministoree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47726529346-mhat308vamjdonid665m3711ljioq4ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ministoree",
+            "certificate_hash": "3f4ea35b03798209db9b95114beaf30f402a6d8a"
+          }
+        },
+        {
+          "client_id": "47726529346-dbvusjdrodr2cqsv31js9vdfuncpdq7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz7oQ3Yv43jhKwDsRSuQgybmCvRbkrDVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47726529346-dbvusjdrodr2cqsv31js9vdfuncpdq7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

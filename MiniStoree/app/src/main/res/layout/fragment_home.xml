@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="370dp"
+        android:id="@+id/jacket"
+        android:src="@drawable/jacket"
+        android:scaleType="fitStart"
+        />
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="370dp"
+        android:id="@+id/shoes"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shoes"
+        android:layout_toRightOf="@+id/jacket"
+
+
+        />
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="370dp"
+        android:id="@+id/books"
+        android:src="@drawable/books"
+        android:layout_below="@+id/jacket"
+        android:scaleType="fitCenter"
+        />
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="370dp"
+        android:id="@+id/camera"
+        android:src="@drawable/camera"
+        android:layout_toRightOf="@+id/books"
+        android:layout_below="@+id/shoes"
+        android:scaleType="fitCenter"
+        />
+
+
+
+</RelativeLayout>
