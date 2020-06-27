@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv1"
+    android:layout_centerHorizontal="true"
+    android:textSize="30dp"
+    android:hint="data from activity 3 will shown hear"
+    android:layout_below="@+id/b2"
+    android:layout_marginTop="30dp"
+    android:textAlignment="center"
+
+    />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/b1"
+      android:layout_below="@+id/ed1"
+      android:layout_marginTop="25dp"
+      android:layout_centerHorizontal="true"
+      android:text="ACTIVITY 2"
+      android:textAllCaps="true"
+      android:textSize="50dp"
+      android:textAlignment="center"
+      android:background="@color/colorPrimary"
+      android:textColor="@color/white"
+   />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/b2"
+    android:layout_below="@+id/b1"
+    android:layout_marginTop="25dp"
+    android:layout_centerHorizontal="true"
+    android:text="ACTIVITY 3"
+    android:textAllCaps="true"
+    android:textSize="50dp"
+    android:textAlignment="center"
+    android:background="@color/colorPrimary"
+    android:textColor="@color/white"
+    />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ed1"
+    android:hint="enter name"
+    android:layout_centerHorizontal="true"
+    android:textSize="50dp"
+    android:layout_marginTop="15dp"
+/>
+</RelativeLayout>

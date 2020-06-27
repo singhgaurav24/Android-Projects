@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter email id"
+        android:id="@+id/tvemail"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+    android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:id="@+id/tvpass"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/tvemail"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlog"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/tvpass"
+        android:text="login"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnreg"
+        android:text="regester"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/btnlog"
+        />
+
+</RelativeLayout>
