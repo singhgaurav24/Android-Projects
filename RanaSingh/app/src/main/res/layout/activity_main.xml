@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+   android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/rana_pics"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:background="@drawable/image_rounded_corner"
+        android:id="@+id/imgrana"
+        />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvname"
+    android:text="rana pratap singh"
+    android:textAllCaps="true"
+    android:layout_below="@+id/imgrana"
+    android:layout_centerHorizontal="true"
+    android:textAlignment="center"
+    android:textSize="30dp"
+    android:textColor="@color/colorAccent"
+    android:layout_marginTop="15dp"
+        android:textStyle="bold"
+
+    />
+
+</RelativeLayout>
